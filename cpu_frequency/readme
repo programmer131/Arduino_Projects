@@ -2,4 +2,6 @@ install mqtt	sudo apt-get install mosquitto
 mosquitto mqtt publish	"mosquitto_pub -m "message" -t "topic name"
 execute bash script: ./freq.sh
 execution rights: chmod +x freq.sh
+linux CPU stress test	sudo apt-get install stress
+Apply stress for 10 sec	sudo stress --cpu  8 --timeout 10
 what else?
