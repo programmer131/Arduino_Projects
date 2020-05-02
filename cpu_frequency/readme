@@ -1,0 +1,5 @@
+install mqtt	sudo apt-get install mosquitto
+mosquitto mqtt publish	"mosquitto_pub -m "message" -t "topic name"
+execute bash script: ./freq.sh
+execution rights: chmod +x freq.sh
+what else?
